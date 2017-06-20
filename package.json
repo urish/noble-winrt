@@ -1,0 +1,25 @@
+{
+  "name": "noble-winrt",
+  "version": "0.1.0",
+  "description": "WinRT bindings for Noble (using BLEServer.exe)",
+  "main": "index.js",
+  "repository": "https://github.com/urish/noble-winrt",
+  "author": "Uri Shaked",
+  "license": "MIT",
+  "dependencies": {
+    "chrome-native-messaging": "^0.2.0",
+    "debug": "^2.6.8",
+    "noble": "^1.7.0"
+  },
+  "engines": {
+    "node": ">=6.4.0"
+  },
+  "keywords": [
+    "bluetooth",
+    "BLE",
+    "noble",
+    "bluetooth low energy",
+    "windows 10",
+    "winrt"
+  ]
+}
