@@ -14,6 +14,12 @@
   "engines": {
     "node": ">=6.4.0"
   },
+  "files": [
+    "bindings.js",
+    "index.js",
+    "prebuilt/BLEServer.exe",
+    "prebuilt/README.txt"
+  ],
   "keywords": [
     "bluetooth",
     "BLE",
