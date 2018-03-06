@@ -56,6 +56,15 @@ class WinrtBindings extends events.EventEmitter {
             .catch(err => this.emit('connect', address, err));
     }
 
+    disconnect(address) {
+        this._sendRequest({ cmd: 'disconnect', device: this._deviceMap[address] })
+            .then(result => {
+                this._deviceMap[address] = null;
+                this.emit('disconnect', address, null);
+            })
+            .catch(err => this.emit('disconnect', address, err));
+    }
+
     discoverServices(address, filters = []) {
         this._sendRequest({ cmd: 'services', device: this._deviceMap[address] })
             .then(result => {
