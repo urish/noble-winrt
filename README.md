@@ -7,7 +7,7 @@
 
 Install with npm or yarn:
 ```javascript
-npm install noble-winrt
+npm install --save noble-winrt
 ```
 Then simply use in place of `noble`:
 ```javascript
@@ -19,6 +19,7 @@ const noble = require('noble-winrt');
 ## Integrating with bleat
 
 If you'd like to use this library to work with the Web Bluetooth api through [bleat](https://github.com/thegecko/bleat), you will have to replace `noble` to `noble-winrt`. Running the following command in a powershell terminal in the directory containing your project's `node_modules` should take care of that:
+
 ```powershell
 node -e "var fs = require('fs'), `
   f = 'node_modules/bleat/dist/adapter.noble.js'; `
