@@ -146,6 +146,11 @@ class WinrtBindings extends events.EventEmitter {
                 this.emit('stateChange', this.state);
                 break;
 
+            case 'Stop':
+                this.state = 'poweredOff';
+                this.emit('stateChange', this.state);
+                break;
+    
             case 'scanResult':
                 let advertisement = {
                     localName: message.localName,
