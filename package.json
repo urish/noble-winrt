@@ -18,7 +18,18 @@
     "bindings.js",
     "index.js",
     "prebuilt/BLEServer.exe",
-    "prebuilt/README.txt"
+    "prebuilt/README.txt",
+    "BLEServer/BLEServer.sln",
+    "BLEServer/manifest.json",
+    "BLEServer/register.cmd",
+    "BLEServer/BLEServer/BLEServer.cpp",
+    "BLEServer/BLEServer/BLEServer.rc",
+    "BLEServer/BLEServer/BLEServer.vcxproj",
+    "BLEServer/BLEServer/BLEServer.vcxproj.filters",
+    "BLEServer/BLEServer/resource.h",
+    "BLEServer/BLEServer/stdafx.cpp",
+    "BLEServer/BLEServer/stdafx.h",
+    "BLEServer/BLEServer/targetver.h"
   ],
   "keywords": [
     "bluetooth",
